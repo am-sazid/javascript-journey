@@ -5,3 +5,5 @@ var isTrue = true;
 console.log(typeof isTrue); // "boolean"
 var text = "Hello, world!";
 console.log(typeof text); // "string"
+var nothing = null;
+console.log(typeof nothing); // "object" (this is a known JavaScript quirk)

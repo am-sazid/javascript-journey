@@ -6,5 +6,5 @@ const out1 = arr.pop();
 console.log(arr);
 const out2 = arr.pop();
 console.log(arr)
-
-console.log(out1,out2);
+      
+console.log(out1,out2);      

@@ -16,11 +16,11 @@
 // let para = document.getElementsByTagName("p");
 // console.dir(para);
 
-let element = document.querySelector(".header");
-console.dir(element);
+// let element = document.querySelector(".header");
+// console.dir(element);
 
-let eleme = document.querySelectorAll(".header");
-console.dir(eleme);
+// let eleme = document.querySelectorAll(".header");
+// console.dir(eleme);
 
 
 

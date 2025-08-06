@@ -1,13 +1,5 @@
-body{
-    background-color: pink;
+*{
+    background-color: black;
+    color: #fff;
 }
 
-.header{
-    color: white;
-    background-color: blue;
-}
-
-button{
-    background-color: rgb(8, 156, 156);
-    border: white;
-}

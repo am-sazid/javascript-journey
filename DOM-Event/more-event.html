@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Explore More Event</h1>
+    <button id="button">click</button>
+    <input id="input-field" type="text">
+
+
+
+    <script>
+        document.getElementById('button').addEventListener('mousemove',function(){
+            console.log('Button Clicked')
+        })
+        document.getElementById('input-field').addEventListener('focus',function(){
+            console.log('focused on input field');
+        })
+        document.getElementById('input-field').addEventListener('keyup',function(keyField){
+            console.log(keyField.target.value);
+        })
+    </script>
+</body>
+</html>

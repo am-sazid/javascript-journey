@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="document.body.style.backgroundColor = 'black' "> Click Me</button>
+    <button onclick="makeYellow()"">yellow Button</button>
+    <button id="make-blue"> Blue Button</button>
+    <button id="make-green">Green Button</button>
+    <button id="make-pink">Pink Button</button>
+    <button id="make-purple">purple-button</button>
+    <button id="make-goldenrod">Golden Button</button>
+
+    <script src="js/main.js"></script>
+    <script>
+    //    Final System
+    document.getElementById('make-goldenrod').addEventListener('click',function(){
+        document.body.style.backgroundColor = 'goldenrod'
+    })
+    </script>
+</body>
+</html>

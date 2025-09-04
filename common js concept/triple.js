@@ -6,11 +6,9 @@ const second = "2";
     // this make this value are equal 
 if(first == second){
     console.log("Value are equal");
-    
 }
 else{
     console.log("Value are not equal");
-    
 }
 
 

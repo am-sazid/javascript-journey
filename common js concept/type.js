@@ -30,10 +30,3 @@ document.getElementById('color2').addEventListener('click',function(){
     
 })
 
-document.getElementById('color2').addEventListener('click',function(){
-    document.body.style.backgroundColor = "red";
-    const text = document.getElementById('text');
-    text.style.color = "white"
-    console.log("Button Clicked");
-    
-})
